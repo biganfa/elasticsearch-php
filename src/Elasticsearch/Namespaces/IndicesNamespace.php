@@ -690,7 +690,7 @@ class IndicesNamespace extends AbstractNamespace
     }
 
     /**
-     * $params['index']   = (string) The name of the index (Required)
+     * $params['index']   = (string|array) The name of the index or an array ['index' => name] (Required)
      *        ['timeout'] = (time) Explicit operation timeout
      *        ['body']    = (time) Explicit operation timeout
      *
